@@ -1,0 +1,394 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		277920551C385D40007689A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277920541C385D40007689A8 /* AppDelegate.swift */; };
+		277920571C385D40007689A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277920561C385D40007689A8 /* ViewController.swift */; };
+		2779205A1C385D40007689A8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 277920581C385D40007689A8 /* Main.storyboard */; };
+		2779205C1C385D40007689A8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2779205B1C385D40007689A8 /* Assets.xcassets */; };
+		277920671C385D40007689A8 /* DropboxPhotoAlbumTVTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277920661C385D40007689A8 /* DropboxPhotoAlbumTVTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		277920631C385D40007689A8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 277920491C385D40007689A8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 277920501C385D40007689A8;
+			remoteInfo = DropboxPhotoAlbumTV;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		277920511C385D40007689A8 /* DropboxPhotoAlbumTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DropboxPhotoAlbumTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		277920541C385D40007689A8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		277920561C385D40007689A8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		277920591C385D40007689A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2779205B1C385D40007689A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2779205D1C385D40007689A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		277920621C385D40007689A8 /* DropboxPhotoAlbumTVTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DropboxPhotoAlbumTVTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		277920661C385D40007689A8 /* DropboxPhotoAlbumTVTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropboxPhotoAlbumTVTests.swift; sourceTree = "<group>"; };
+		277920681C385D40007689A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2779204E1C385D40007689A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2779205F1C385D40007689A8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		277920481C385D40007689A8 = {
+			isa = PBXGroup;
+			children = (
+				277920531C385D40007689A8 /* DropboxPhotoAlbumTV */,
+				277920651C385D40007689A8 /* DropboxPhotoAlbumTVTests */,
+				277920521C385D40007689A8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		277920521C385D40007689A8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				277920511C385D40007689A8 /* DropboxPhotoAlbumTV.app */,
+				277920621C385D40007689A8 /* DropboxPhotoAlbumTVTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		277920531C385D40007689A8 /* DropboxPhotoAlbumTV */ = {
+			isa = PBXGroup;
+			children = (
+				277920541C385D40007689A8 /* AppDelegate.swift */,
+				277920561C385D40007689A8 /* ViewController.swift */,
+				277920581C385D40007689A8 /* Main.storyboard */,
+				2779205B1C385D40007689A8 /* Assets.xcassets */,
+				2779205D1C385D40007689A8 /* Info.plist */,
+			);
+			path = DropboxPhotoAlbumTV;
+			sourceTree = "<group>";
+		};
+		277920651C385D40007689A8 /* DropboxPhotoAlbumTVTests */ = {
+			isa = PBXGroup;
+			children = (
+				277920661C385D40007689A8 /* DropboxPhotoAlbumTVTests.swift */,
+				277920681C385D40007689A8 /* Info.plist */,
+			);
+			path = DropboxPhotoAlbumTVTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		277920501C385D40007689A8 /* DropboxPhotoAlbumTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2779206B1C385D40007689A8 /* Build configuration list for PBXNativeTarget "DropboxPhotoAlbumTV" */;
+			buildPhases = (
+				2779204D1C385D40007689A8 /* Sources */,
+				2779204E1C385D40007689A8 /* Frameworks */,
+				2779204F1C385D40007689A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropboxPhotoAlbumTV;
+			productName = DropboxPhotoAlbumTV;
+			productReference = 277920511C385D40007689A8 /* DropboxPhotoAlbumTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		277920611C385D40007689A8 /* DropboxPhotoAlbumTVTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2779206E1C385D40007689A8 /* Build configuration list for PBXNativeTarget "DropboxPhotoAlbumTVTests" */;
+			buildPhases = (
+				2779205E1C385D40007689A8 /* Sources */,
+				2779205F1C385D40007689A8 /* Frameworks */,
+				277920601C385D40007689A8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				277920641C385D40007689A8 /* PBXTargetDependency */,
+			);
+			name = DropboxPhotoAlbumTVTests;
+			productName = DropboxPhotoAlbumTVTests;
+			productReference = 277920621C385D40007689A8 /* DropboxPhotoAlbumTVTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		277920491C385D40007689A8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = bluwave;
+				TargetAttributes = {
+					277920501C385D40007689A8 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 4BGY9AUPZS;
+					};
+					277920611C385D40007689A8 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 277920501C385D40007689A8;
+					};
+				};
+			};
+			buildConfigurationList = 2779204C1C385D40007689A8 /* Build configuration list for PBXProject "DropboxPhotoAlbumTV" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 277920481C385D40007689A8;
+			productRefGroup = 277920521C385D40007689A8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				277920501C385D40007689A8 /* DropboxPhotoAlbumTV */,
+				277920611C385D40007689A8 /* DropboxPhotoAlbumTVTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2779204F1C385D40007689A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2779205C1C385D40007689A8 /* Assets.xcassets in Resources */,
+				2779205A1C385D40007689A8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		277920601C385D40007689A8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2779204D1C385D40007689A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277920571C385D40007689A8 /* ViewController.swift in Sources */,
+				277920551C385D40007689A8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2779205E1C385D40007689A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				277920671C385D40007689A8 /* DropboxPhotoAlbumTVTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		277920641C385D40007689A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 277920501C385D40007689A8 /* DropboxPhotoAlbumTV */;
+			targetProxy = 277920631C385D40007689A8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		277920581C385D40007689A8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				277920591C385D40007689A8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		277920691C385D40007689A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		2779206A1C385D40007689A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2779206C1C385D40007689A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DropboxPhotoAlbumTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.DropboxPhotoAlbumTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2779206D1C385D40007689A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = DropboxPhotoAlbumTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.DropboxPhotoAlbumTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2779206F1C385D40007689A8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropboxPhotoAlbumTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.DropboxPhotoAlbumTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropboxPhotoAlbumTV.app/DropboxPhotoAlbumTV";
+			};
+			name = Debug;
+		};
+		277920701C385D40007689A8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DropboxPhotoAlbumTVTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.acme.DropboxPhotoAlbumTVTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DropboxPhotoAlbumTV.app/DropboxPhotoAlbumTV";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2779204C1C385D40007689A8 /* Build configuration list for PBXProject "DropboxPhotoAlbumTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				277920691C385D40007689A8 /* Debug */,
+				2779206A1C385D40007689A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2779206B1C385D40007689A8 /* Build configuration list for PBXNativeTarget "DropboxPhotoAlbumTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2779206C1C385D40007689A8 /* Debug */,
+				2779206D1C385D40007689A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2779206E1C385D40007689A8 /* Build configuration list for PBXNativeTarget "DropboxPhotoAlbumTVTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2779206F1C385D40007689A8 /* Debug */,
+				277920701C385D40007689A8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 277920491C385D40007689A8 /* Project object */;
+}
