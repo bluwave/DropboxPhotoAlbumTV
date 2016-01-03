@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder.AppleTV.Storyboard" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="AppleTV" propertyAccessControl="none" useAutolayout="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Authenticate View Controller-->
+        <scene sceneID="cye-N2-qb4">
+            <objects>
+                <viewController storyboardIdentifier="AuthenticateViewController" id="Hws-kE-ZC8" customClass="AuthenticateViewController" customModule="DropboxPhotoAlbumTV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="WAg-3m-8aK"/>
+                        <viewControllerLayoutGuide type="bottom" id="2sS-lM-Up3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="qz0-g1-jrP">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please visit the URL on a mobile device to connect your Dropbox account" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P6h-Of-7HI">
+                                <rect key="frame" x="100" y="100" width="1720" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="200" id="G7l-aw-f4X"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="75"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.75" adjustsLetterSpacingToFitWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DbV-hT-PiV">
+                                <rect key="frame" x="120" y="440" width="1680" height="200"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="5Bb-15-tRt"/>
+                                    <constraint firstAttribute="height" constant="200" id="E6Y-ow-alU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="120"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qq5-IJ-36c">
+                                <rect key="frame" x="100" y="894" width="1720" height="86"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="86" id="GKp-yO-aYw"/>
+                                </constraints>
+                                <inset key="contentEdgeInsets" minX="40" minY="20" maxX="40" maxY="20"/>
+                                <state key="normal" title="Click here after log in on phone"/>
+                                <connections>
+                                    <action selector="actionAuthenticationCompleted:" destination="Hws-kE-ZC8" eventType="primaryActionTriggered" id="yL6-yN-12M"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="P6h-Of-7HI" firstAttribute="leading" secondItem="qz0-g1-jrP" secondAttribute="leading" constant="100" id="LFY-sZ-N9t"/>
+                            <constraint firstItem="2sS-lM-Up3" firstAttribute="top" secondItem="Qq5-IJ-36c" secondAttribute="bottom" constant="100" id="Vid-AB-6y5"/>
+                            <constraint firstAttribute="trailing" secondItem="P6h-Of-7HI" secondAttribute="trailing" constant="100" id="i1S-lH-rMJ"/>
+                            <constraint firstItem="DbV-hT-PiV" firstAttribute="leading" secondItem="qz0-g1-jrP" secondAttribute="leadingMargin" constant="100" id="oWA-Vi-VAg"/>
+                            <constraint firstAttribute="trailing" secondItem="Qq5-IJ-36c" secondAttribute="trailing" constant="100" id="qPw-gY-C4R"/>
+                            <constraint firstItem="DbV-hT-PiV" firstAttribute="centerY" secondItem="qz0-g1-jrP" secondAttribute="centerY" id="rxE-id-GpO"/>
+                            <constraint firstItem="Qq5-IJ-36c" firstAttribute="leading" secondItem="qz0-g1-jrP" secondAttribute="leading" constant="100" id="w8p-xe-a39"/>
+                            <constraint firstItem="P6h-Of-7HI" firstAttribute="top" secondItem="WAg-3m-8aK" secondAttribute="bottom" constant="100" id="wRh-MB-4f8"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="DbV-hT-PiV" secondAttribute="trailing" constant="100" id="ytQ-4d-p2k"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="URLLabel" destination="DbV-hT-PiV" id="Of3-Pz-MZO"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="S0R-Mh-fVa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="445" y="-737"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" id="BYZ-38-t0r" customClass="ViewController" customModule="DropboxPhotoAlbumTV" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5ps-qH-kej">
+                                <rect key="frame" x="0.0" y="0.0" width="1920" height="1080"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5ps-qH-kej" secondAttribute="bottom" id="FNF-Jb-KcM"/>
+                            <constraint firstAttribute="trailing" secondItem="5ps-qH-kej" secondAttribute="trailing" id="Oe4-HM-Di3"/>
+                            <constraint firstItem="5ps-qH-kej" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="PjE-5f-FFq"/>
+                            <constraint firstItem="5ps-qH-kej" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="bbs-QF-Uyt"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="imageView" destination="5ps-qH-kej" id="EtX-Wb-iiR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

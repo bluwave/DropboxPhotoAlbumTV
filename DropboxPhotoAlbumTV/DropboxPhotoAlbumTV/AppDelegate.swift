@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SwiftyDropbox
+import Keys
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,7 +17,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
-        // Override point for customization after application launch.
+        configureWindow()
+        configureDropbox()
+        configureRootView()
         return true
     }
 
@@ -41,6 +45,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
 
+    //  MARK - Configure
 
+    private func configureWindow() {
+        self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+    }
+
+    private func configureDropbox() {
+        Dropbox.setupWithAppKey(DropboxphotoalbumtvKeys().dropboxAppKey())
+    }
+
+    private func configureRootView() {
+
+        var viewControllerClass:AnyClass
+
+        if let _ = Dropbox.authorizedClient {
+            viewControllerClass = ViewController.classForCoder()
+        } else {
+            viewControllerClass = AuthenticateViewController.classForCoder()
+        }
+
+        if let viewController = UIStoryboard.viewControllerFromClass(viewControllerClass) {
+            let navController = UINavigationController(rootViewController: viewController)
+            window?.rootViewController = navController
+            window?.makeKeyAndVisible()
+        } else {
+            assertionFailure("Unable to init root view controller")
+        }
+    }
 }
 
