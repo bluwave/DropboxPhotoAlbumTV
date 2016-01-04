@@ -58,3 +58,6 @@ Carthage/Build
 fastlane/report.xml
 fastlane/screenshots
 .idea
+
+#	Custom local configuration file
+DropboxPhotoAlbumTV/DropboxPhotoAlbumTV/LocalConfigurations.plist

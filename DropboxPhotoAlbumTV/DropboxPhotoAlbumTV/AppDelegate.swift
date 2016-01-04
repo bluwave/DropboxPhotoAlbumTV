@@ -8,7 +8,6 @@
 
 import UIKit
 import SwiftyDropbox
-import Keys
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -52,7 +51,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     }
 
     private func configureDropbox() {
-        Dropbox.setupWithAppKey(DropboxphotoalbumtvKeys().dropboxAppKey())
+        Dropbox.setupWithAppKey(Constants.LocalConfigurations.instance.dropboxAppKey())
     }
 
     private func configureRootView() {

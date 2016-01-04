@@ -7,9 +7,8 @@
 //
 
 import UIKit
-import Keys
-import TVOAuthCircumventAssistant
 import SwiftyDropbox
+import TVOAuthCircumventAssistant
 
 class AuthenticateViewController: UIViewController {
 
@@ -24,7 +23,7 @@ class AuthenticateViewController: UIViewController {
     private func configureAssistant() {
         
         var configuration = TVOAuthCircumventAssistantConfiguration()
-        configuration.tvTokenFetchURL = DropboxphotoalbumtvKeys().tvTokenFetchURL()
+        configuration.tvTokenFetchURL = Constants.LocalConfigurations.instance.tvTokenFetchURL()
         configuration.retrieveAuthenticationInfoURL = configuration.tvTokenFetchURL
         
         assistant = TVOAuthCircumventAssistant(configuration: configuration)
