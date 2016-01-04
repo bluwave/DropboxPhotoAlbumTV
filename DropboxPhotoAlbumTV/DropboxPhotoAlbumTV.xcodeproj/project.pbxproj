@@ -11,7 +11,6 @@
 		275BF2DC1C3A40AA006F7A34 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		275BF2DE1C3A5ACC006F7A34 /* LocalConfigurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 275BF2DD1C3A5ACC006F7A34 /* LocalConfigurations.plist */; };
 		276CD6BD1C389A0B0091920C /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CD6BC1C389A0B0091920C /* UIStoryboard+Extensions.swift */; };
-		276CD6C11C389DCD0091920C /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CD6C01C389DCD0091920C /* UIViewController+Extensions.swift */; };
 		276CD6F11C3902DB0091920C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CD6F01C3902DB0091920C /* Constants.swift */; };
 		277920551C385D40007689A8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277920541C385D40007689A8 /* AppDelegate.swift */; };
 		277920571C385D40007689A8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 277920561C385D40007689A8 /* ViewController.swift */; };
@@ -55,7 +54,6 @@
 		22BC72E3960514F72CCD7976 /* Pods-DropboxPhotoAlbumTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropboxPhotoAlbumTV.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-DropboxPhotoAlbumTV/Pods-DropboxPhotoAlbumTV.debug.xcconfig"; sourceTree = "<group>"; };
 		275BF2DD1C3A5ACC006F7A34 /* LocalConfigurations.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = LocalConfigurations.plist; sourceTree = "<group>"; };
 		276CD6BC1C389A0B0091920C /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
-		276CD6C01C389DCD0091920C /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		276CD6F01C3902DB0091920C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		276CD6F21C3909880091920C /* TVOAuthCircumventAssistant.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVOAuthCircumventAssistant.framework; path = "/Users/garrettrichards/src3/dropboxPhotos/fresh/Pods/../build/Debug-appletvos/TVOAuthCircumventAssistant.framework"; sourceTree = "<absolute>"; };
 		276CD6F41C3909A10091920C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "/Users/garrettrichards/src3/dropboxPhotos/fresh/Pods/../build/Debug-appletvos/Alamofire.framework"; sourceTree = "<absolute>"; };
@@ -164,7 +162,6 @@
 				277920761C385F03007689A8 /* String+Extensions.swift */,
 				277920771C385F03007689A8 /* Array+Extensions.swift */,
 				276CD6BC1C389A0B0091920C /* UIStoryboard+Extensions.swift */,
-				276CD6C01C389DCD0091920C /* UIViewController+Extensions.swift */,
 			);
 			name = extensions;
 			sourceTree = "<group>";
@@ -355,7 +352,6 @@
 				277920791C385F03007689A8 /* Array+Extensions.swift in Sources */,
 				276CD6BD1C389A0B0091920C /* UIStoryboard+Extensions.swift in Sources */,
 				2779207C1C385F55007689A8 /* Log.swift in Sources */,
-				276CD6C11C389DCD0091920C /* UIViewController+Extensions.swift in Sources */,
 				276CD6F11C3902DB0091920C /* Constants.swift in Sources */,
 				277920821C3893A8007689A8 /* AuthenticateViewController.swift in Sources */,
 				277920731C385EC9007689A8 /* PhotoManager.swift in Sources */,
