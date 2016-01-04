@@ -10,5 +10,4 @@ target 'DropboxPhotoAlbumTV', :exclusive => true do
 	pod 'XCGLogger', '~> 3.1'
 	pod 'SwiftyDropbox', :git => 'git@github.com:bluwave/SwiftyDropbox.git', :branch => 'tvOS'
 	pod 'TVOAuthCircumventAssistant', :git => 'git@github.com:bluwave/TVOAuthCircumventAssistant.git'
-    # pod 'TVOAuthCircumventAssistant', :path => '~/src3/dropboxPhotos/TVOAuthCircumventAssistant/TVOAuthCircumventAssistant'
 end
