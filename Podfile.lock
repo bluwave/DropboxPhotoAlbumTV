@@ -7,7 +7,7 @@ PODS:
     - Alamofire (~> 3.1)
   - TVOAuthCircumventAssistant (0.1.1):
     - Alamofire (~> 3.1)
-  - XCGLogger (3.1.1)
+  - XCGLogger (3.2)
 
 DEPENDENCIES:
   - SDWebImage (from `git@github.com:rs/SDWebImage.git`)
@@ -40,6 +40,6 @@ SPEC CHECKSUMS:
   SDWebImage: 119e50946eee9ddf15589227ec2b6b37966ecd04
   SwiftyDropbox: c844d975975b14dfb318dd08dfc59b9343a067c9
   TVOAuthCircumventAssistant: 95500bc57949533ee8970906fb93186d2a26427a
-  XCGLogger: e111a313f609432394c3ae378d99511634fd2e3c
+  XCGLogger: da1f341f4bb8979db6e1df64232f04d9698402d4
 
 COCOAPODS: 0.39.0
