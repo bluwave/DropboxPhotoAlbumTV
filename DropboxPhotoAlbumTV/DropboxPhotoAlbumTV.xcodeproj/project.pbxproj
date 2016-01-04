@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		274823611C3A265200B30622 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		275BF2DC1C3A40AA006F7A34 /* (null) in Embed Frameworks */ = {isa = PBXBuildFile; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		275BF2DE1C3A5ACC006F7A34 /* LocalConfigurations.plist in Resources */ = {isa = PBXBuildFile; fileRef = 275BF2DD1C3A5ACC006F7A34 /* LocalConfigurations.plist */; };
 		276CD6BD1C389A0B0091920C /* UIStoryboard+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CD6BC1C389A0B0091920C /* UIStoryboard+Extensions.swift */; };
 		276CD6C11C389DCD0091920C /* UIViewController+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CD6C01C389DCD0091920C /* UIViewController+Extensions.swift */; };
 		276CD6F11C3902DB0091920C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 276CD6F01C3902DB0091920C /* Constants.swift */; };
@@ -52,6 +53,7 @@
 
 /* Begin PBXFileReference section */
 		22BC72E3960514F72CCD7976 /* Pods-DropboxPhotoAlbumTV.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DropboxPhotoAlbumTV.debug.xcconfig"; path = "../Pods/Target Support Files/Pods-DropboxPhotoAlbumTV/Pods-DropboxPhotoAlbumTV.debug.xcconfig"; sourceTree = "<group>"; };
+		275BF2DD1C3A5ACC006F7A34 /* LocalConfigurations.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = LocalConfigurations.plist; sourceTree = "<group>"; };
 		276CD6BC1C389A0B0091920C /* UIStoryboard+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIStoryboard+Extensions.swift"; sourceTree = "<group>"; };
 		276CD6C01C389DCD0091920C /* UIViewController+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extensions.swift"; sourceTree = "<group>"; };
 		276CD6F01C3902DB0091920C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
@@ -134,6 +136,7 @@
 				2779207D1C38600C007689A8 /* Main.storyboard */,
 				2779205B1C385D40007689A8 /* Assets.xcassets */,
 				2779205D1C385D40007689A8 /* Info.plist */,
+				275BF2DD1C3A5ACC006F7A34 /* LocalConfigurations.plist */,
 			);
 			path = DropboxPhotoAlbumTV;
 			sourceTree = "<group>";
@@ -282,6 +285,7 @@
 			files = (
 				2779207E1C38600C007689A8 /* Main.storyboard in Resources */,
 				2779205C1C385D40007689A8 /* Assets.xcassets in Resources */,
+				275BF2DE1C3A5ACC006F7A34 /* LocalConfigurations.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
