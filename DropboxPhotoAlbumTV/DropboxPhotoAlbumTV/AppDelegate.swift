@@ -54,8 +54,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         Dropbox.setupWithAppKey(Constants.LocalConfigurations.instance.dropboxAppKey())
     }
 
-    private func configureRootView() {
-
+    func configureRootView() {
         var viewControllerClass:AnyClass
 
         if let _ = Dropbox.authorizedClient {
@@ -65,9 +64,13 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         }
 
         if let viewController = UIStoryboard.viewControllerFromClass(viewControllerClass) {
-            let navController = UINavigationController(rootViewController: viewController)
-            window?.rootViewController = navController
-            window?.makeKeyAndVisible()
+            if let navController = window?.rootViewController as? UINavigationController {
+                navController.setViewControllers([viewController], animated: true)
+            }else {
+                let navController = UINavigationController(rootViewController: viewController)
+                window?.rootViewController = navController
+                window?.makeKeyAndVisible()
+            }
         } else {
             assertionFailure("Unable to init root view controller")
         }

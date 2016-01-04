@@ -62,6 +62,11 @@ class AuthenticateViewController: UIViewController {
             return
         }
         Dropbox.authorizeWithAccessToken(DropboxAccessToken(accessToken: accessToken, uid: userID))
+        if let _ = Dropbox.authorizedClient {
+            if let app = UIApplication.sharedApplication().delegate as? AppDelegate {
+                app.configureRootView()
+            }
+        }
     }
 
     //  MARK: - Actions
